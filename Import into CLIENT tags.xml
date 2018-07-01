@@ -1,0 +1,163 @@
+<Tags>
+   <Tag name="BetterGraphs" path="" type="Folder"/>
+   <Tag name="BG_activeAxis" path="BetterGraphs" type="Client">
+      <Property name="Value">
+         <Dataset>
+            <columns>
+               <col name="NAME" datatype="String"/>
+               <col name="LABEL" datatype="String"/>
+               <col name="TYPE" datatype="String"/>
+               <col name="LABEL_COLOR" datatype="java.awt.Color"/>
+               <col name="TICK_LABEL_COLOR" datatype="java.awt.Color"/>
+               <col name="TICK_MARK_COLOR" datatype="java.awt.Color"/>
+               <col name="POSITION" datatype="Int4"/>
+               <col name="INVERT" datatype="Boolean"/>
+               <col name="AUTO_RANGE" datatype="Boolean"/>
+               <col name="AUTO_RANGE_INCL_ZERO" datatype="Boolean"/>
+               <col name="AUTO_RANGE_MARGIN" datatype="Float8"/>
+               <col name="LOWER_BOUND" datatype="Float8"/>
+               <col name="UPPER_BOUND" datatype="Float8"/>
+               <col name="AUTO_TICK_UNITS" datatype="Boolean"/>
+               <col name="TICK_UNIT" datatype="Float8"/>
+               <col name="GRID_UNIT" datatype="Float8"/>
+               <col name="NUMBER_FORMAT" datatype="String"/>
+               <col name="LOG_LABEL_STYLE" datatype="String"/>
+               <col name="SYMBOL_STRING" datatype="String"/>
+               <col name="GRID_BANDS_VISIBLE" datatype="Boolean"/>
+               <col name="GRID_BAND_COLOR" datatype="java.awt.Color"/>
+               <col name="GRID_BAND_ALTERNATE_COLOR" datatype="java.awt.Color"/>
+            </columns>
+            <rows>
+               <row>
+                  <cell>Default Axis</cell>
+                  <cell>Value</cell>
+                  <cell>Numeric</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+                  <cell>true</cell>
+                  <cell>false</cell>
+                  <cell>0.05</cell>
+                  <cell>0.0</cell>
+                  <cell>100.0</cell>
+                  <cell>true</cell>
+                  <cell>5.0</cell>
+                  <cell>5.0</cell>
+                  <cell/>
+                  <cell>normal</cell>
+                  <cell/>
+                  <cell>false</cell>
+                  <cell>color(232,234,232,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+            </rows>
+         </Dataset>
+      </Property>
+      <Property name="DataType">9</Property>
+      <Property name="PollRate" mode="2">0</Property>
+   </Tag>
+   <Tag name="BG_activeSubplots" path="BetterGraphs" type="Client">
+      <Property name="Value">
+         <Dataset>
+            <columns>
+               <col name="SUBPLOT" datatype="Int4"/>
+               <col name="WEIGHT" datatype="Int4"/>
+               <col name="OVERRIDE_BACKGROUND" datatype="Boolean"/>
+               <col name="OVERRIDE_BACKGROUND_COLOR" datatype="java.awt.Color"/>
+            </columns>
+            <rows>
+               <row>
+                  <cell>1</cell>
+                  <cell>5</cell>
+                  <cell>false</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+               <row>
+                  <cell>2</cell>
+                  <cell>1</cell>
+                  <cell>false</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+               <row>
+                  <cell>3</cell>
+                  <cell>1</cell>
+                  <cell>false</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+               <row>
+                  <cell>4</cell>
+                  <cell>1</cell>
+                  <cell>false</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+               <row>
+                  <cell>5</cell>
+                  <cell>1</cell>
+                  <cell>false</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+            </rows>
+         </Dataset>
+      </Property>
+      <Property name="DataType">9</Property>
+      <Property name="PollRate" mode="2">0</Property>
+   </Tag>
+   <Tag name="BG_activeTagPens" path="BetterGraphs" type="Client">
+      <Property name="Value">
+         <Dataset>
+            <columns>
+               <col name="NAME" datatype="String"/>
+               <col name="DESCRIPTION" datatype="String"/>
+               <col name="TAG_PATH" datatype="String"/>
+               <col name="AGGREGATION_MODE" datatype="String"/>
+               <col name="AXIS" datatype="String"/>
+               <col name="SUBPLOT" datatype="Int4"/>
+               <col name="ENABLED" datatype="Boolean"/>
+               <col name="COLOR" datatype="java.awt.Color"/>
+               <col name="DASH_PATTERN" datatype="String"/>
+               <col name="RENDER_STYLE" datatype="Int4"/>
+               <col name="LINE_WEIGHT" datatype="Float4"/>
+               <col name="SHAPE" datatype="Int4"/>
+               <col name="FILL_SHAPE" datatype="Boolean"/>
+               <col name="LABELS" datatype="Boolean"/>
+               <col name="GROUP_NAME" datatype="String"/>
+               <col name="DIGITAL" datatype="Boolean"/>
+               <col name="OVERRIDE_AUTOCOLOR" datatype="Boolean"/>
+               <col name="HIDDEN" datatype="Boolean"/>
+               <col name="USER_SELECTABLE" datatype="Boolean"/>
+               <col name="SORT_ORDER" datatype="Int4"/>
+               <col name="USER_REMOVABLE" datatype="Boolean"/>
+            </columns>
+            <rows>
+               <row>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell></cell>
+                  <cell>0</cell>
+                  <cell>0.0</cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell></cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+               </row>
+            </rows>
+         </Dataset>
+      </Property>
+      <Property name="DataType">9</Property>
+      <Property name="PollRate" mode="2">0</Property>
+   </Tag>
+</Tags>
