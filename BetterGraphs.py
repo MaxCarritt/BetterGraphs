@@ -42,20 +42,17 @@ def updateGraph():
 			data = data.value
 			window = system.gui.getWindow("BetterGraphs/BG_Graph")
 			window.rootContainer.Data = data
-	except:
-		pass
-	
-	
-	try:
+			
 		window2 = system.gui.getWindow("BetterGraphs/BG_Graph_Config")
 		if window2 != None:
 			data = system.tag.read("[Client]BetterGraphs/BG_activeTagPens")
 			data = data.value
 			window2 = system.gui.getWindow("BetterGraphs/BG_Graph_Config")
 			window2.rootContainer.Data = data
-	except: 
+	except:
 		pass
-	
+		
+
 
 #creates dropdown menu to either add or remove pen
 def showPopup(event):
@@ -100,6 +97,9 @@ def showPopup(event):
 
 	def clearGraph(event):
 		project.BetterGraphs.clearGraphPoints()
+
+	#menuNames.append("Clear Current Graph")
+	#menuFunctions.append(clearGraph)
 
 	def openGraph(event):
 		project.BetterGraphs.openCurrentGraph()
