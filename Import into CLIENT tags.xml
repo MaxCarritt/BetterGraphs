@@ -105,39 +105,6 @@
       <Property name="DataType">9</Property>
       <Property name="PollRate" mode="2">0</Property>
    </Tag>
-   <Tag name="BG_activeTagPens" path="BetterGraphs/Clean backup set" type="Client">
-      <Property name="Value">
-         <Dataset>
-            <columns>
-               <col name="NAME" datatype="String"/>
-               <col name="DESCRIPTION" datatype="String"/>
-               <col name="TAG_PATH" datatype="String"/>
-               <col name="AGGREGATION_MODE" datatype="String"/>
-               <col name="AXIS" datatype="String"/>
-               <col name="SUBPLOT" datatype="Int4"/>
-               <col name="ENABLED" datatype="Boolean"/>
-               <col name="COLOR" datatype="java.awt.Color"/>
-               <col name="DASH_PATTERN" datatype="String"/>
-               <col name="RENDER_STYLE" datatype="Int4"/>
-               <col name="LINE_WEIGHT" datatype="Float4"/>
-               <col name="SHAPE" datatype="Int4"/>
-               <col name="FILL_SHAPE" datatype="Boolean"/>
-               <col name="LABELS" datatype="Boolean"/>
-               <col name="GROUP_NAME" datatype="String"/>
-               <col name="DIGITAL" datatype="Boolean"/>
-               <col name="OVERRIDE_AUTOCOLOR" datatype="Boolean"/>
-               <col name="HIDDEN" datatype="Boolean"/>
-               <col name="USER_SELECTABLE" datatype="Boolean"/>
-               <col name="SORT_ORDER" datatype="Int4"/>
-               <col name="USER_REMOVABLE" datatype="Boolean"/>
-            </columns>
-            <rows>
-            </rows>
-         </Dataset>
-      </Property>
-      <Property name="DataType">9</Property>
-      <Property name="PollRate" mode="2">0</Property>
-   </Tag>
    <Tag name="BG_activeAxis" path="BetterGraphs" type="Client">
       <Property name="Value">
          <Dataset>
@@ -177,9 +144,105 @@
                   <cell>false</cell>
                   <cell>true</cell>
                   <cell>false</cell>
-                  <cell>0.05</cell>
+                  <cell>0.0</cell>
                   <cell>0.0</cell>
                   <cell>100.0</cell>
+                  <cell>true</cell>
+                  <cell>5.0</cell>
+                  <cell>5.0</cell>
+                  <cell></cell>
+                  <cell>normal</cell>
+                  <cell></cell>
+                  <cell>false</cell>
+                  <cell>color(232,234,232,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+               <row>
+                  <cell>Truck 1</cell>
+                  <cell>Truck 1</cell>
+                  <cell>Numeric</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>1.0</cell>
+                  <cell>0.0</cell>
+                  <cell>150.0</cell>
+                  <cell>true</cell>
+                  <cell>5.0</cell>
+                  <cell>5.0</cell>
+                  <cell></cell>
+                  <cell>normal</cell>
+                  <cell></cell>
+                  <cell>false</cell>
+                  <cell>color(232,234,232,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+               <row>
+                  <cell>Truck 3</cell>
+                  <cell>Truck 3</cell>
+                  <cell>Numeric</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>2.0</cell>
+                  <cell>0.0</cell>
+                  <cell>150.0</cell>
+                  <cell>true</cell>
+                  <cell>5.0</cell>
+                  <cell>5.0</cell>
+                  <cell></cell>
+                  <cell>normal</cell>
+                  <cell></cell>
+                  <cell>false</cell>
+                  <cell>color(232,234,232,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+               <row>
+                  <cell>Truck 5</cell>
+                  <cell>Truck 5</cell>
+                  <cell>Numeric</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>3.0</cell>
+                  <cell>0.0</cell>
+                  <cell>150.0</cell>
+                  <cell>true</cell>
+                  <cell>5.0</cell>
+                  <cell>5.0</cell>
+                  <cell></cell>
+                  <cell>normal</cell>
+                  <cell></cell>
+                  <cell>false</cell>
+                  <cell>color(232,234,232,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+               </row>
+               <row>
+                  <cell>Truck 7</cell>
+                  <cell>Truck 7</cell>
+                  <cell>Numeric</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>4.0</cell>
+                  <cell>0.0</cell>
+                  <cell>150.0</cell>
                   <cell>true</cell>
                   <cell>5.0</cell>
                   <cell>5.0</cell>
@@ -269,6 +332,29 @@
                <col name="USER_REMOVABLE" datatype="Boolean"/>
             </columns>
             <rows>
+               <row>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+                  <cell>color(0,0,0,255)</cell>
+                  <cell></cell>
+                  <cell>0</cell>
+                  <cell>0.0</cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell></cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>false</cell>
+                  <cell>0</cell>
+                  <cell>false</cell>
+               </row>
             </rows>
          </Dataset>
       </Property>
